@@ -1,0 +1,13 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"declaration": true,
+		"emitDeclarationOnly": true,
+		"outDir": "./package",
+		"skipLibCheck": true,
+		"noEmit": false,
+		"verbatimModuleSyntax": true
+	},
+	"include": ["src/index.ts"],
+	"exclude": ["node_modules", "**/*.test.ts", "**/*.css"]
+}

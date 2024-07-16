@@ -1,0 +1,17 @@
+{
+	"name": "widget-sandbox",
+	"version": "1.0.0",
+	"license": "MIT",
+	"engines": {
+		"node": ">=20"
+	},
+	"packageManager": "npm@10.7.0",
+	"workspaces": {
+		"packages": [
+			"widget/**",
+			"sdk/**",
+			"sdk-delivery-server/**",
+			"test-server/**"
+		]
+	}
+}

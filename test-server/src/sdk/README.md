@@ -1,0 +1,1 @@
+get types from 'sdk-delivery-server/index.d.ts' and 'sdk-delivery-server/types.d.ts'

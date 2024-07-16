@@ -1,0 +1,23 @@
+{
+	"private": true,
+	"type": "module",
+	"types": "package/index.d.ts",
+	"main": "package/index.d.ts",
+	"name": "@repo/sdk",
+	"scripts": {
+		"dev": "vite",
+		"build": "npm run build:dist && npm run build:package",
+		"build:dist": "vite build",
+		"build:package": "tsc -p tsconfig.package.json",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"preact": "^10.22.1",
+		"rxjs": "^7.8.1"
+	},
+	"devDependencies": {
+		"@preact/preset-vite": "^2.9.0",
+		"typescript": "^5.5.3",
+		"vite": "^5.3.3"
+	}
+}
